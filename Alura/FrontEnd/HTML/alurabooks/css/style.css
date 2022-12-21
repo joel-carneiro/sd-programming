@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url("header.css");
+@import url("banner.css");
+@import url("carrosel.css");
+@import url("topicos.css");
+@import url("contato.css");
+@import url("rodape.css");
+
+
+
+:root {
+    --cinza: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul: #002F52;
+    --preto: #000000;
+    --azul-degrade: linear-gradient(45deg, #002F52, #326589);
+
+}
+
+body {
+    font-family: 'Lato';
+    background-color: var(--cinza);
+    font-size: 16px;
+}
+
