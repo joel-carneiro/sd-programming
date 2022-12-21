@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author joel
- *
- */
-module javacollections {
-}

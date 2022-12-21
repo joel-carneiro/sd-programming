@@ -4,14 +4,16 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class TestaCursos {
+public class TestaCurso2 {
+
 	public static void main(String[] args) {
-		Curso javaColecoes = new Curso
-				("Java e Java Collections", "Paulo Silveira");
+
+		Curso javaColecoes = new Curso("Dominando as coleções do Java",
+				"Paulo Silveira");
 
 		javaColecoes.adiciona(new Aula("Trabalhando com ArrayList", 21));
-		javaColecoes.adiciona(new Aula("Criando a classe Aula", 20));
-		javaColecoes.adiciona(new Aula("Comparando Aulas", 22));
+		javaColecoes.adiciona(new Aula("Criando uma Aula", 20));
+		javaColecoes.adiciona(new Aula("Modelando com coleções", 24));
 		
 		List<Aula> aulasImutaveis = javaColecoes.getAulas();
 		System.out.println(aulasImutaveis);
