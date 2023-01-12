@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo | CDB</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo-cabecalho">Cálculo | CDB</h1>
+        <p class="botao"></p>
+    </header>
+
+    <main class="box">
+        <h2 class="box-titulo">Preencha as informações</h2>
+        <form class="form">
+            <label for="investimento-inicial">Capital inicial</label>
+            <input class="input-valores" type="number" name="" id="investimento-inicial" required>
+            <label for="juros-ano">Rendimento ao ano</label>
+            <input class="input-valores" type="number" name="" id="juros" required>
+            <label for="anos">Por quantos anos?</label>
+            <input class="input-valores" type="number" name="" id="anos" required>
+            <label for="investimento-mensal">Investimento mensal</label>
+            <input class="input-valores" type="number" name="" id="investimento-mensal" value="0">
+            <input type="submit" value="Calcular" class="submit">
+        </form>
+    </main>
+    <section class="resultados">
+        <ul>
+            <li class="resultado-descricao">Capital líquido final</li>
+            <li class="resultado-valor"></li>
+            <li class="resultado-descricao">Capital bruto final</li>
+            <li class="resultado-valor"></li>
+            <li class="resultado-descricao">Capital total aplicado</li>
+            <li class="resultado-valor"></li>
+            <li class="resultado-descricao">Imposto de renda</li>
+            <li class="resultado-valor"></li>
+        </ul>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

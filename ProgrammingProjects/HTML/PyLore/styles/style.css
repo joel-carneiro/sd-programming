@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+@import url("header.css");
+@import url("banner.css");
+@import url("cards.css");
+@import url("rodape.css");
+
+:root {
+    --preto: #202026;
+    --background: #343440;
+    --branco: #FFFFFF;
+    --azul: #0367A6;
+    --azul-escuro: #011526;
+
+    --fonte: 'Open Sans';
+}
+
+body {
+    background-color: var(--background);
+    font-size: 16px;
+    font-family: var(--fonte);
+}

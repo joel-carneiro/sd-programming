@@ -1,0 +1,31 @@
+.principal {
+    width: 100vw;
+    text-align: center;
+}
+
+.principal__img {
+    width: 100vw;
+}
+
+.principal__titulo {
+    text-transform: uppercase;
+    color: var(--branco);
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.principal__texto {
+    margin: 1.5em 0.5em;
+    color: var(--branco);
+}
+
+.principal__botao {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    background: linear-gradient(45deg, #F2E3D5, #ddd3ca);
+    display: inline-block;
+    color: var(--azul);
+    padding: 1em 0.5em;
+    border-radius: 20px;
+}

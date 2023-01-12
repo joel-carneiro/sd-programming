@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #071d31;
+}
+
+.cabecalho {
+    background-color: #071d31;
+    display: flex;
+}
+
+.cabecalho__logo {
+    width: 150px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.principal {
+    background-color: #071d31;
+}
+
+.container__principal--titulo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__principal--titulo h1 {
+    font-size: 5em;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 2em;
+    margin: 10% 0px;
+}
+
+.container__principal--titulo a {
+    font-size: 1.5em;
+    background: linear-gradient(to right, #00c9fb, #009ac0);
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    transition: 0.25s;
+}
+
+.container__principal--titulo a:hover {
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+
+.principal__banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    width: 35vw;
+    align-self: center;
+    border-radius: 50px;
+    box-shadow: 0px 0px 100px rgba(128, 0, 128, 0.349);
+}
+
+.apresentacao {
+    font-family: 'Montserrat';
+    background-color: #071d31;
+    text-align: center;
+    color: white;
+    margin-top: 35vh;
+}
+
+.apresentacao h2 {
+    font-weight: 700;
+    font-size: 2em;
+    margin: 10vh 15vw;
+    line-height: 1.5em;
+}
+
+.apresentacao p {
+    font-size: 20px;
+    margin: 0px 15vw;
+    line-height: 1.5em;
+}
+
+h2 strong {
+    color: rgb(189, 0, 189);
+}
+
+.rodape {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    background-color: #071d31;
+    margin-top: 25vh;
+    color: white;
+    font-size: 20px;
+}
+
+.rodape h3 {
+    font-weight: 700;
+    font-size: 3em;
+    color: rgb(202, 0, 202);
+}
+
+.logo__rodape {
+    width: 300px;
+}
+
+li i {
+    font-size: 32px;
+}
+
+.lista__contatos li {
+    margin: 10px 0px;
+}
+
+.lista__redes li {
+    display: inline;
+    margin-right: 10px;
+}

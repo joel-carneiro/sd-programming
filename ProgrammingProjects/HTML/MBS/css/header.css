@@ -1,0 +1,45 @@
+.header {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    position: relative;
+}
+
+.header__menu {
+    display: inline-block;
+    background: url("../img/menu-hamburguer.png");
+    width: 48px;
+    height: 48px;
+}
+
+.header__lista {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 40vw;
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.header__lista-item {
+    margin: 2em 0;
+}
+
+.header__lista-link {
+    font-size: 20px;
+    color: var(--laranja_escuro);
+}
+
+.header__lista-link::before {
+    content: "> ";
+}
+
+.menu__botao {
+    display: none;
+}
+
+.menu__botao:checked ~ .header__lista {
+    display: block;
+}

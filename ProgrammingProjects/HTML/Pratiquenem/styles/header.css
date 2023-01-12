@@ -1,0 +1,50 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--azulescuro);
+    padding: 0.5em 1em;
+    position: relative;
+}
+
+.menu {
+    display: block;
+    width: 48px;
+    height: 48px;
+    background: url('../img/menu.png');
+}
+
+.container__logo-header {
+    width: 48px;
+}
+
+.navegacao {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--azulescuro);
+    width: 60vw;
+}
+
+.navegacao__lista-item {
+    margin: 1em 1em;
+}
+
+.navegacao__link {
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 700;
+}
+
+.navegacao__link::before {
+    content: "\2981";
+    margin-right: 1em;
+}
+
+#container__menu-botao {
+    display: none;
+}
+
+#container__menu-botao:checked ~ .navegacao {
+    display: block;
+}

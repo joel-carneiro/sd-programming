@@ -1,0 +1,13 @@
+.rodape {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+
+    background-color: white;
+    padding: 1.2em 0;
+    text-align: center;
+}
+
+.rodape__texto a {
+    color: black;
+}

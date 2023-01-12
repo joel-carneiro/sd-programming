@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@import url('header.css');
+@import url('main.css');
+@import url('footer.css');
+
+:root {
+    --azulescuro: #0C273D;
+    --azul: #024959;
+    --branco: #FFFEF1;
+    --beje: #F2E3D5;
+    --verdeescuro: #2C5E2E;
+
+    --fonte: 'Montserrat'
+}
+
+body {
+    background-color: var(--azul);
+    font-size: 16px;
+    font-family: var(--fonte);
+}

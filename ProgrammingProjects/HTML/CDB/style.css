@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+@font-face {
+    font-family: 'icones';
+    src: url(icones.ttf);
+}
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    height: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.253);
+}
+
+.titulo-cabecalho {
+    text-align: center;
+    padding: 36px;
+    font-weight: 400;
+    font-size: 2em;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.363);
+}
+
+.botao {
+    padding: 24px;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+.botao:before {
+    font-size: 3em;
+    font-family: 'icones';
+    content: "\e905";
+    color: white;
+}
+
+.resultados {
+    position: absolute;
+    width: 300px;
+    height: 100vh;
+    right: -300px;
+    top: 100px;
+    background-color: rgb(104, 0, 104);
+    transition: 0.45s;
+}
+
+.resultados-ativo {
+    right: 0px;
+    top: 100px;
+    transition: 0.45s;
+
+}
+
+.box {
+    width: 700px;
+    height: 70vh;
+    margin: 50px auto;
+    border: 1px solid black;
+    background: linear-gradient(45deg, white 1%, purple 50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.158);
+}
+
+.box-titulo {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 10px;
+    color: white;
+}
+
+.form {
+    display: grid;
+    text-align: center;
+}
+
+.form label {
+    display: block;
+    color: #FFFFFF;
+    font-size: 1.4em;
+    text-shadow: 0px 0px 10px black;
+    font-weight: 500;
+    margin: 8px;
+}
+
+.input-valores {
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px 0px;
+    color: purple;
+    font-weight: 600;
+    font-size: 16px;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.submit {
+    background-color: purple;
+    border: 2px solid black;
+    width: 30%;
+    margin: 24px auto;
+    padding: 8px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.submit:hover {
+    background-color: rgb(75, 0, 75);
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.resultado-descricao {
+    font-size: 1.5em;
+    margin-top: 18px;
+    padding: 8px;
+    color: white;
+    font-weight: 400;
+    text-align: left;
+}
+
+.resultado-valor {
+    background-color: white;
+    padding: 20px 8px;
+    font-size: 1.5em;
+    color: purple;
+    margin: 0px 10px;
+    font-weight: 700;
+}
+
+.imprimir {
+    transition: 1s;
+    transform: rotateX(360deg);
+}
+
+@media (max-width: 600px) {
+    .box {
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .input-valores {
+        width: 60vw;
+    }
+
+    .submit {
+        width: 50vw;
+    }
+}

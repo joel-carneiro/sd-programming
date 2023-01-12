@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url("header.css");
+@import url("banner.css");
+
+:root {
+    --azul_escuro: #002E40;
+    --azul_claro: #2A5769;
+    --branco: #FFFFFF;
+    --laranja_claro: #FABD4A;
+    --laranja_escuro: #FA9600;
+}
+
+body {
+    background-color: var(--azul_claro);
+    font-family: 'Lato';
+    font-size: 16px;
+}
