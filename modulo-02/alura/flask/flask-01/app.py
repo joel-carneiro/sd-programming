@@ -1,5 +1,4 @@
 # Importando as bibliotecas necessárias para o aplicativo
-from flask import Flask, request, render_template, redirect, session, flash
 from flask import request
 from flask import render_template
 from flask import redirect
@@ -56,7 +55,7 @@ def create_new_game():
 	# Redirecionando de volta para a página para adicionar um novo jogo
 	return redirect('/new_game')
 
-
+à
 # Definindo a rota para a página de login
 @app.route('/login')
 def login():
