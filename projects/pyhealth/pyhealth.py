@@ -13,10 +13,10 @@ def extract_monetary_data():
 
 
 def collect_information():
-    study_hours = int(input("Quantas horas você estudou hoje? "))
+    study_hours = float(input("Quantas horas você estudou hoje? "))
     training_hours = int(input("Quantos minutos você treinou hoje? "))
     used_social_network = int(input("Você usou rede social hoje? "))
-    meditation = int(input("Quantos minutos você meditou hoje? "))
+    meditation = float(input("Quantos minutos você meditou hoje? "))
     mood_of_the_day = int(input("De 0 a 10, o quão bem você se sente hoje? "))
     today = date.today()
     euro, dolar, bitcoin = extract_monetary_data()
