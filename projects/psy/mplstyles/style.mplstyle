@@ -1,0 +1,8 @@
+figure.facecolor: 131317
+axes.facecolor: 15161c
+axes.grid: True
+axes.grid.axis: y
+text.color: white
+xtick.color: white
+ytick.color: white
+lines.linewidth: 4.0
