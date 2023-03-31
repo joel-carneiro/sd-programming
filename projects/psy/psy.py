@@ -2,26 +2,12 @@ from datetime import date
 from pandas import read_csv
 import matplotlib.pyplot as plt
 
-
-def times_series(data, variable, title):
-	plt.style.use('mplstyles/style.mplstyle')
-
-	plt.figure(figsize=(8, 5))
-
-	plt.plot(data['day'], data[variable])
-
-	plt.title(title)
-
-	plt.savefig(f'graphs/{title}.png')
-
-	plt.close()
-
-
 class Psy:
 	def __init__(self):
 		print('BEM VINDO AO PSY! TENHA UMA EXCELENTÍSSIMA NOITE! (^-^)')
 		print('-=-' * 19)
 		self.info = None
+		self.data = None
 
 
 	def collect_information(self):
@@ -45,18 +31,37 @@ class Psy:
 			file.write(line_data + '\n')
 
 
-	def plot(self):
+	def load_data(self, path):
+		self.data = read_csv(path)
 
-		df = read_csv('data/psydata.csv')
 
-		times_series(df, 'study', 'Tempo de Estudo')
-		times_series(df, 'train', 'Tempo de Treino')    
-		times_series(df, 'meditation', 'Tempo de Meditação')    
-		times_series(df, 'mood', 'Variação de Humor')   
+	def plot(self, var, title):
+		plt.style.use('mplstyles/style.mplstyle')
+
+		plt.figure(figsize=(8, 5))
+
+		plt.plot(self.data['day'], self.data[var])
+
+		plt.title(title)
+
+		plt.savefig(f'graphs/{title}.png')
+
+		plt.close()
+
 
 
 if __name__ == '__main__':
 	psy = Psy()
+
 	psy.collect_information()
+
 	psy.store_information(path='data/psydata.csv')
-	psy.plot()
+
+	psy.load_data('data/psydata.csv')
+
+	print(psy.data)
+
+	psy.plot(var='study', title='Variação de Estudo')
+	psy.plot('train', 'Variação de Treino')
+	psy.plot('meditation', 'Variação de Meditação')
+	psy.plot('mood', 'Variação de Humor')

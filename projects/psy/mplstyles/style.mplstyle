@@ -5,4 +5,4 @@ axes.grid.axis: y
 text.color: white
 xtick.color: white
 ytick.color: white
-lines.linewidth: 4.0
+lines.linewidth: 2.0
