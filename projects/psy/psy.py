@@ -17,10 +17,11 @@ class Psy:
 		meditation = input('Tempo de meditação (Minutos) ? ')
 		social_media = input('Usou redes sociais hoje (1 ou 0) ? ')
 		mood = input('Seu humor: (0 ~ 10) ? ')
+		read = input('Quantas horas você leu hoje ? ')
 
 		self.info = [
 		today, study, train, meditation,
-		social_media, mood
+		social_media, mood, read
 		]
 
 
@@ -32,7 +33,7 @@ class Psy:
 
 
 	def load_data(self, path):
-		self.data = read_csv(path)
+		self.data = read_csv(path, parse_dates=['day'])
 
 
 	def plot(self, var, title):
@@ -65,3 +66,4 @@ if __name__ == '__main__':
 	psy.plot('train', 'Variação de Treino')
 	psy.plot('meditation', 'Variação de Meditação')
 	psy.plot('mood', 'Variação de Humor')
+	psy.plot('read', 'Variação de Leitura')

@@ -21,12 +21,7 @@ class Pydit:
         self.clip.write_videofile(name, codec='libx264', audio_codec='aac')
 
 
-quantum = int(input("Você pretende juntar quantos vídeos ? "))
-
-videos_names = [f'input/video{n}.mp4' for n in range(1, quantum+1, 1)]
-audios_names = [f'input/audio{n}.ogg' for n in range(1, quantum+1, 1)]
-
-for i in range(0, quantum, 1):
-    editor = Pydit(videos_names[i])
-    editor.join(audios_names[i])
-    editor.save(f'output/final_video{i+1}.mp4')
+speed = int(input("Qual a velocidade a se acelerar o vídeo ? "))
+editor = Pydit('video.mp4')
+editor.speed_up(speed)
+editor.save('final_video.mp4')
