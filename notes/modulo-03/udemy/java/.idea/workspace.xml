@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="581fcbae-0942-4621-927f-c7366303cec7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../projects/psy/data/psydata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects/psy/data/psydata.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../projects/psy/graphs/Variação de Estudo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects/psy/graphs/Variação de Estudo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../projects/psy/graphs/Variação de Humor.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects/psy/graphs/Variação de Humor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../projects/psy/graphs/Variação de Meditação.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects/psy/graphs/Variação de Meditação.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../projects/psy/graphs/Variação de Treino.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects/psy/graphs/Variação de Treino.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../projects/psy/psy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects/psy/psy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../projects/pydit/pydit.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects/pydit/pydit.py" afterDir="false" />
-    </list>
+    <list default="true" id="581fcbae-0942-4621-927f-c7366303cec7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +19,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/joeldspy/Documentos/sd-programming/notes/modulo-03/udemy/java"
+    "last_opened_file_path": "/home/joeldspy/Documentos/sd-programming/notes/modulo-03/alura/JavaBD"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
