@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Empresas</title>
+<style type="text/css">
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	width: 400px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+	<h1>Cadastro de Empresas</h1>
+	<form action="/iCompany/register_company" method="post">
+		<label for="nome">Nome:</label>
+		<input type="text" id="name" name="name" required>
+		<br> 
+		<br>
+		<label for="cnpj">CNPJ:</label>
+		<input type="text" id="cnpj" name="cnpj" required>
+		<br> 
+		<br>
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
