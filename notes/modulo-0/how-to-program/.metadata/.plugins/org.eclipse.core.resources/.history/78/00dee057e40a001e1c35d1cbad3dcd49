@@ -1,0 +1,8 @@
+package function;
+
+public class TryFunctions {
+	public static void main(String[] args) {
+		Calculator calculator = (x, y) -> {return x + y;};
+		System.out.println(calculator.execute(5, 5));
+	}
+}

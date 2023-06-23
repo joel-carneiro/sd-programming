@@ -1,0 +1,9 @@
+package function;
+
+import java.util.function.Function;
+
+public class TryFunctions2 {
+	public static void main(String[] args) {
+		
+	}
+}

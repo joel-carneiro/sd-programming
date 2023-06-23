@@ -1,0 +1,9 @@
+package function;
+
+import java.util.function.Function;
+
+public interface Calculator {
+	
+	public double execute();
+	
+}

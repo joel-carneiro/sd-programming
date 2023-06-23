@@ -1,0 +1,11 @@
+package arraysbasic;
+
+public class TryEquality {
+	public static void main(String[] args) {
+		Student s1 = new Student("William Dabruzzo", "Ciência da Computação", 18);
+		Student s2 = new Student("William Dabruzzo", "Ciência da Computação", 18);
+		
+		System.out.println(s1 == s2);
+		System.out.println(s1.equals(s2));
+	}
+}

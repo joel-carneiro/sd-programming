@@ -1,0 +1,12 @@
+package function;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class TryForEach {
+	public static void main(String[] args) {
+		List<String> emplooyers = Arrays.asList("Ana", "Bia", "Lia", "Gui");
+		
+		emplooyers.forEach((name) -> System.out.println(name));
+	}
+}

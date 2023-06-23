@@ -1,0 +1,12 @@
+package ifce;
+
+import java.util.Scanner;
+
+public class RegisterStudent {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("NOME COMPLETO: ");
+		System.out.println("CODE: ");
+		System.out.println("CURSO: ");
+	}
+}

@@ -1,0 +1,15 @@
+package br.com.nubank.runner;
+
+import java.math.BigDecimal;
+
+import br.com.nubank.entity.Client;
+import br.com.nubank.entity.DAO;
+
+public class Try {
+	public static void main(String[] args) {
+		DAO<Client> dao = new DAO<Client>();
+		dao.openTransaction();
+		dao = dao.persist(new Client("Joel Carneiro Verçosa", new BigDecimal("123.75")));
+		dao.closeTransaction();
+	}
+}

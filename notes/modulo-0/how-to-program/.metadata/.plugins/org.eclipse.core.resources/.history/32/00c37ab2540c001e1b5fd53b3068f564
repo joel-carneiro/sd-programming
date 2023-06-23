@@ -1,0 +1,24 @@
+package ifce;
+
+import java.util.Scanner;
+
+public class RegisterStudent {
+	public static void main(String[] args) {
+		
+		// Entrada de dados do usuário
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("NOME COMPLETO: ");
+		final String studentName = input.nextLine().toUpperCase();
+		
+		System.out.print("CODE: ");
+		final String studentCode = input.nextLine().toUpperCase();
+		
+		System.out.print("CURSO: ");
+		final String studentCourse = input.nextLine().toUpperCase();
+		
+		input.close();
+		
+	}
+}

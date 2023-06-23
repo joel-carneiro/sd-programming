@@ -1,0 +1,12 @@
+package br.com.nubank.entity;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class DAO {
+	private EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("cap8");
+	private EntityManager entityManager;
+	
+	
+}

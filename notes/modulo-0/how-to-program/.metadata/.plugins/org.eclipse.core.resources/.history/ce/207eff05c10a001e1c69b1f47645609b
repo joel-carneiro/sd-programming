@@ -1,0 +1,7 @@
+package welcome;
+
+public class School {
+	public static void main(String[] args) {
+		final int MEAN = 10;
+	}
+}

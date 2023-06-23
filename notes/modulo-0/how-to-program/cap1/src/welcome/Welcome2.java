@@ -1,0 +1,16 @@
+package welcome;
+
+import java.util.Scanner;
+
+public class Welcome2 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("What's is your name? ");
+		String clientName = input.nextLine();
+		
+		System.out.println("Welcome, " + clientName + "!");
+		
+		input.close();
+	}
+}

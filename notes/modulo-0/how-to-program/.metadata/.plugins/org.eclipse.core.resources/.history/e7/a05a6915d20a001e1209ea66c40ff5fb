@@ -1,0 +1,10 @@
+package school;
+
+public class Runner {
+	public static void main(String[] args) {
+		Student s1 = new Student("William Martins", "Ciência da Computação", 19);
+		Student s2 = new Student("Kelvin Homodeiros", "")
+		
+		System.out.println(s1.getName());
+	}
+}

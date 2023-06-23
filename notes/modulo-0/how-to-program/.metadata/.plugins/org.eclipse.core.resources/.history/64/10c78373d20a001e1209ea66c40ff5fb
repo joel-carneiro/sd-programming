@@ -1,0 +1,9 @@
+package school;
+
+public class Runner {
+	public static void main(String[] args) {
+		Student s1 = new Student("William Martins", "Ciência da Computação", 18);
+		Student s2 = new Student("Kelvin Homodeiros", "Engenharia da Computação", 20);
+		Student s3 = new Student("Luan Carosi", "Informática para Negócios", 22);
+	}
+}

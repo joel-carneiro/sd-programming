@@ -1,0 +1,9 @@
+package function;
+
+public class TryFunctions {
+	public static void main(String[] args) {
+		var sum = (x, y) -> {
+			return x + y;
+		};
+	}
+}

@@ -1,0 +1,10 @@
+package function;
+
+public class TryFunctions2 {
+	public static void main(String[] args) {
+		int vaiTomarNoCuPiranha = 5;
+		int chupaMeuPauCalica = 6;
+		
+		System.out.println(vaiTomarNoCuPiranha + chupaMeuPauCalica);
+	}
+}

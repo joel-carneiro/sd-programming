@@ -1,0 +1,9 @@
+package function;
+
+import java.util.Arrays;
+
+public class TryForEach {
+	public static void main(String[] args) {
+		List<String> emplooyers = Arrays.asList("Ana", "Bia", "Lia", "Gui");
+	}
+}

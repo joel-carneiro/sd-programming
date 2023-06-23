@@ -1,0 +1,31 @@
+package tryjdbc;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.Properties;
+
+public class ConnectionFactory {
+	public static Connection getConnection() throws SQLException {
+		final String URL = "jdbc:mysql://localhost:3306/school";
+		final String USER = "joeldspy";
+		final String PASSWORD = "123";
+		
+		return DriverManager.getConnection(URL, USER, PASSWORD);
+	}
+	
+	public static Properties getProperties() throws IOException {
+		Properties properties = new Properties();
+		String arquivePath = "/home/joeldspy/Documentos/HowToProgram/cap6/src/data.properties";
+		
+		properties.load(ConnectionFactory.class.getResourceAsStream(arquivePath));
+		
+		properties.get("url");
+		properties.get("user");
+		properties.get("password")
+		
+		return null;
+	}
+}

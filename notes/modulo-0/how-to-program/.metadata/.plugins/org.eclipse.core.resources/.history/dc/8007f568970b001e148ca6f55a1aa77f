@@ -1,0 +1,17 @@
+package tryjdbc;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Scanner;
+
+public class AddUser {
+	public static void main(String[] args) throws SQLException {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Informe um nome de usuário: ");
+		final String userName = input.nextLine();
+		input.close();
+		
+		
+	}
+}

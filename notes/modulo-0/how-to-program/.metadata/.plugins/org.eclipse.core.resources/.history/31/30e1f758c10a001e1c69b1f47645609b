@@ -1,0 +1,16 @@
+package welcome;
+
+import java.util.Scanner;
+
+public class School {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Média do aluno: ");
+		final double MEAN = scanner.nextDouble();
+		
+		String result = MEAN >= 77 ? "APROVADO" : "REPROVADO";
+		
+		System.out.println("SITUAÇÃO: " + result);
+	}
+}

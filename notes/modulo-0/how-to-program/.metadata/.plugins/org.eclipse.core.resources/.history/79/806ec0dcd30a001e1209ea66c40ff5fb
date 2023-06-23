@@ -1,0 +1,12 @@
+package arraysbasic;
+
+public class TryArrays {
+	public static void main(String[] args) {
+		final int[] IFCE = {66, 53, 52, 12, 99, 96, 76};
+		final int[] UECE = {43, 89, 78, 67, 100, 54, 78};
+		
+		for (int d : IFCE) {
+			System.out.println(d);
+		}
+	}
+}

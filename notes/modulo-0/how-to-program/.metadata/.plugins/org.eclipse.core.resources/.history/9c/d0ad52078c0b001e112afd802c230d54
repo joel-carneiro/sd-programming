@@ -1,0 +1,10 @@
+package tryjdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class TryConnection {
+	public static void main(String[] args) {
+		
+	}
+}

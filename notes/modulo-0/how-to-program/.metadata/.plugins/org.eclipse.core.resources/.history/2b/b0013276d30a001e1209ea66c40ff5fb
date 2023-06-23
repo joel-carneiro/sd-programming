@@ -1,0 +1,10 @@
+package arraysbasic;
+
+public class TryArrays {
+	public static void main(String[] args) {
+		int[] x = {1, 2, 3, 4};
+		int[] y = {3, 4, 5, 6};
+		
+		System.out.println(x * y);
+	}
+}

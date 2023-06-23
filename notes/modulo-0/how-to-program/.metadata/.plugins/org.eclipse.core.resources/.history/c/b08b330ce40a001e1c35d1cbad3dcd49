@@ -1,0 +1,9 @@
+package function;
+
+public class TryFunctions {
+	public static void main(String[] args) {
+		Calculator calculator = new Sum();
+		
+		System.out.println(calculator.execute(5, 5));
+	}
+}

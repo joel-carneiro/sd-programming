@@ -1,0 +1,13 @@
+package arraysbasic;
+
+import java.util.Arrays;
+
+public class TryArrays {
+	public static void main(String[] args) {
+		final int[] IFCE = {66, 53, 52, 12, 99, 96, 76};
+		final int[] UECE = {43, 89, 78, 67, 91, 54, 78};
+		
+		System.out.println("Notas do IFCE: " + Arrays.toString(IFCE));
+		System.out.println("Notas do UECE" + Arrays.toString(UECE));
+	}
+}

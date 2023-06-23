@@ -1,0 +1,7 @@
+package trypackage;
+
+public class RemoveTeacher {
+	public static void main(String[] args) {
+		
+	}
+}

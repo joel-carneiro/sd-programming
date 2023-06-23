@@ -1,0 +1,7 @@
+package trypackage;
+
+public class SearchTeacher {
+	public static void main(String[] args) {
+		
+	}
+}

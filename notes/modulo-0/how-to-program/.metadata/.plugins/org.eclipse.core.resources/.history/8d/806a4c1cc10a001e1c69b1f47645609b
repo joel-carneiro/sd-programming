@@ -1,0 +1,12 @@
+package welcome;
+
+import java.util.Scanner;
+
+public class School {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		final int MEAN = 10;
+		
+		String result = MEAN >= 6 ? "APROVADO" : "REPROVADO";
+	}
+}

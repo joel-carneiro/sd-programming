@@ -1,0 +1,9 @@
+package br.com.nubank.entity;
+
+import java.math.BigDecimal;
+
+public class Acction {
+	private String name;
+	private BigDecimal price;
+	private double profitability;
+}

@@ -1,0 +1,10 @@
+package welcome;
+
+public class MathProgram {
+	public static void main(String[] args) {
+		final var X = 5;
+		final var Y = 5;
+		
+		Math.sqrt(Math.pow(5, 5));
+	}
+}

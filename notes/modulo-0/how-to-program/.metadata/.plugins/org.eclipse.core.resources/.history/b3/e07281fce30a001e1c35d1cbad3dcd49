@@ -1,0 +1,7 @@
+package function;
+
+public class TryFunctions {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,7 @@
+package welcome;
+
+public class MathProgram {
+	public static void main(String[] args) {
+		
+	}
+}

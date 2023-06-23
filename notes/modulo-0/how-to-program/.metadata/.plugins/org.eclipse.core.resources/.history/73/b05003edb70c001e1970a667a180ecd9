@@ -1,0 +1,15 @@
+package br.com.nubank.entity;
+
+import java.util.Scanner;
+
+public class ClientManager {
+	public static void getClientData() {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("NOME COMPLETO DO CLIENTE: ");
+		
+		System.out.print("CÓDIGO IDENTIFICADOR: ");
+		
+		System.out.print("TOTAL DE DÉBITO: ");
+	}
+}

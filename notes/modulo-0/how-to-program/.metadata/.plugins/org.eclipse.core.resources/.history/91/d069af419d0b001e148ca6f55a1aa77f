@@ -1,0 +1,24 @@
+package tryjdbc;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class QueryUser {
+	public static void main(String[] args) throws SQLException {
+		Connection connection = ConnectionFactory.getConnection();
+		
+		String SQL = "SELECT * FROM users";
+		
+		Statement statement = connection.createStatement();
+		ResultSet resultSet = statement.executeQuery(SQL);
+		
+		while (resultSet.next()) {
+			System.out.println(resultSet.next());
+		}
+		
+		System.out.println("A conexão foi encerrada.");
+		connection.close();
+	}
+}

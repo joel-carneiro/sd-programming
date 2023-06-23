@@ -1,0 +1,9 @@
+package function;
+
+import java.util.function.BinaryOperator;
+
+public class TryFunctions2 {
+	public static void main(String[] args) {
+		BinaryOperator<Double> function = (x, y) -> x * y;
+	}
+}

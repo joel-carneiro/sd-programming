@@ -1,0 +1,9 @@
+package welcome;
+
+public class MathProgram {
+	public static void main(String[] args) {
+		var angle = Math.toRadians(180);
+		
+		System.out.println(angle);
+	}
+}

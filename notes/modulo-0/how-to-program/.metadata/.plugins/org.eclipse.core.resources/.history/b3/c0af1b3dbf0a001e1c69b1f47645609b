@@ -1,0 +1,15 @@
+package welcome;
+
+import java.util.Scanner;
+
+public class Welcome3 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("What's your name? ");
+		final var clientName = input.nextLine();
+		
+		System.out.println("Nome salvo: " + clientName.toUpperCase());
+		input.close();
+	}
+}

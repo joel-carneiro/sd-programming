@@ -1,0 +1,53 @@
+package br.com.nubank.entity;
+
+import java.math.BigDecimal;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "clients", schema = "evilcorp")
+public class Client {
+
+	@Id
+	@GeneratedValue
+	private Long identificationCode;
+	private String fullName;
+	private BigDecimal totalBalance;
+
+	public Client(String fullName, BigDecimal totalBalance) {
+		this.fullName = fullName;
+		this.totalBalance = totalBalance;
+	}
+
+	public Client() {
+
+	}
+
+	public String getFullName() {
+		return fullName;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+
+	public Long getIdentificationCode() {
+		return identificationCode;
+	}
+
+	public void setIdentificationCode(Long identificationCode) {
+		this.identificationCode = identificationCode;
+	}
+
+	public BigDecimal getTotalBalance() {
+		return totalBalance;
+	}
+
+	public void setTotalBalance(BigDecimal totalBalance) {
+		this.totalBalance = totalBalance;
+	}
+
+}

@@ -1,0 +1,33 @@
+package tryjdbc;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+public class QueryUser {
+	public static void main(String[] args) throws SQLException, IOException {
+		Connection connection = ConnectionFactory.getConnection();
+		
+		String SQL = "SELECT * FROM users";
+		
+		Statement statement = connection.createStatement();
+		ResultSet resultSet = statement.executeQuery(SQL);
+		
+		List<User> usersList = new ArrayList<>();
+		
+		while (resultSet.next()) {
+			int code = resultSet.getInt("code");
+			String name = resultSet.getString("name");
+			
+			usersList.add(new User(code, name));
+		}
+		
+		System.out.println(usersList);
+		
+		connection.close();
+	}
+}

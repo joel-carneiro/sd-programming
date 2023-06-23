@@ -1,0 +1,9 @@
+package br.com.nubank.entity;
+
+import java.util.Scanner;
+
+public class ClientManager {
+	public static void registerClient() {
+		Scanner scanner = new Scanner(System.in)
+	}
+}

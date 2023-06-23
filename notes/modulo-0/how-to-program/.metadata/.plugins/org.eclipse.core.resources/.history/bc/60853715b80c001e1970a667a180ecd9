@@ -1,0 +1,7 @@
+package br.com.nubank.runner;
+
+public class RegisterClient {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,7 @@
+package arraysbasic;
+
+public class TryArrays {
+	public static void main(String[] args) {
+		
+	}
+}

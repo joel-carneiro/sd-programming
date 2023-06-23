@@ -1,0 +1,11 @@
+package trypackage;
+
+import br.edu.ifce.entity.Teacher;
+
+public class RegisterTeacher {
+	
+	public static void main(String[] args) {
+		Teacher t = new Teacher("Paulo César", "pc.edu.br@gmail.com");
+	}
+	
+}

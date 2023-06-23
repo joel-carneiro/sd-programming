@@ -1,0 +1,9 @@
+package br.com.nubank.entity;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+
+public class DAO<E> {
+	public static EntityManagerFactory entityManagerFactory;
+	public static EntityManager entityManager;
+}

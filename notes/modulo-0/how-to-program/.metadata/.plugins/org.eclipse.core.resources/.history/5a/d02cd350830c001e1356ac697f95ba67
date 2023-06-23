@@ -1,0 +1,16 @@
+package trypackage;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import br.edu.ifce.entity.Teacher;
+
+public class RegisterTeacher {
+	public static void main(String[] args) {
+		Teacher newTeacher = new Teacher("Paulo César", "pc.edu.br@gmail.com");
+		
+		EntityManagerFactory entityManagerFactory = new Persistence();
+		EntityManager entityManager = entityManagerFactory.createEntityManager();
+	}
+}

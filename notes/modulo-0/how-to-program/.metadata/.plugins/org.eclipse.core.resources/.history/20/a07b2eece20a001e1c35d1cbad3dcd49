@@ -1,0 +1,10 @@
+package function;
+
+public class TryFunctions {
+	
+	public static void main(String[] args) {
+		double result = Calculator.sum(3, 5);
+		
+		System.out.println(result);
+	}
+}

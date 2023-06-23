@@ -1,0 +1,7 @@
+package arraysbasic;
+
+public class TryEquality {
+	public static void main(String[] args) {
+		
+	}
+}

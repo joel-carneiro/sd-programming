@@ -1,0 +1,18 @@
+package tryjdbc;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+public class RemoveUser {
+	public static void main(String[] args) throws SQLException {
+		Connection connection = ConnectionFactory.getConnection();
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Insira o código do usuário a ser removido: ");
+		int userCode = scanner.nextInt();
+		
+		String SQL = "DELETE FROM users WHERE code = ?";
+		connection.prepareStatement();
+	}
+}

@@ -1,0 +1,9 @@
+package br.com.nubank.runner;
+
+import br.com.nubank.entity.DAO;
+
+public class Try {
+	public static void main(String[] args) {
+		DAO<Client> dao = new DAO<Client>();
+	}
+}

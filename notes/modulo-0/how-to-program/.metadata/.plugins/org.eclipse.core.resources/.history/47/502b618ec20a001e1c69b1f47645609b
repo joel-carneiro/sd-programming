@@ -1,0 +1,26 @@
+package ifelse;
+
+import java.util.Scanner;
+
+public class School {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("MÉDIA DO ALUNO: ");
+		final var MEAN = scanner.nextDouble();
+		
+		if (MEAN < 3) {
+			System.out.println("REPROVADO");
+		}
+		
+		else if (MEAN < 6) {
+			System.out.println("RECUPERAÇÃO");
+		}
+		
+		else {
+			System.out.println("APROVADO");
+		}
+		
+		scanner.close();
+	}
+}

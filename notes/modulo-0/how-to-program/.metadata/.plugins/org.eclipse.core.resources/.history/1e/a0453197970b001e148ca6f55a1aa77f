@@ -1,0 +1,26 @@
+package tryjdbc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Scanner;
+
+public class AddUser {
+	public static void main(String[] args) throws SQLException {
+		// Obtendo dados de entrada do usuário.
+		Scanner input = new Scanner(System.in);
+		System.out.print("Informe um nome de usuário: ");
+		final String userName = input.nextLine();
+		input.close();
+		
+		// Iniciando uma conexão com o banco de dados
+		Connection connection = ConnectionFactory.getConnection();
+		
+		// Preparando o esqueleto da inserção SQL
+		String commandSQL = "INSERT INTO users (name) VALUES (?)";
+		
+		PreparedStatement preparedStatement = connection.prepareStatement(commandSQL);
+		preparedStatement.setString(1, userName);
+	}
+}

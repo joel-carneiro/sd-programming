@@ -1,0 +1,9 @@
+package br.com.nubank.runner;
+
+import br.com.nubank.entity.ClientManager;
+
+public class RegisterClient {
+	public static void main(String[] args) {
+		Client newClient = ClientManager.getClientData();
+	}
+}
