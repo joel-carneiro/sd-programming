@@ -1,3 +1,3 @@
 # Programação
 
-arquivos antigos de estudos
+antigos arquivos de estudo
